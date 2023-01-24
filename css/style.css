@@ -1,7 +1,8 @@
 
 /* navbar */
 #background-top {
-    background-color:darkolivegreen;
+    background-image: url('/img/jumbo.png');
+    background-size: cover;
     height: 570px;
 }
 
@@ -9,9 +10,20 @@ nav, main, footer #footer-1, footer #footer-2, footer hr {
     max-width: 1230px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.central-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
 nav {
     height: 77px;
-    background-color:aquamarine;
+    /* background-color:aquamarine; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -22,7 +34,9 @@ nav {
 nav #logo {
     width: 150px;
     height: 77px;
-    background-color: darkorchid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav #link {
@@ -44,14 +58,27 @@ nav #link ul {
 nav #link ul li {
     width: 80px;
     height: 30px;
-    background-color: lightcoral;
+}
+
+nav #link ul li a {
+    color: white;
 }
 
 nav #login {
     width: 110px;
-    height: 77px;
-    background-color: darkorchid;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+nav #login div {
+    width: 75px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
 /* /navbar */
 
 /* header */
