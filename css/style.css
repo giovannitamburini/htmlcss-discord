@@ -1,0 +1,264 @@
+
+/* navbar */
+#background-top {
+    background-color:darkolivegreen;
+    height: 570px;
+}
+
+nav, main, footer #footer-1, footer #footer-2, footer hr {
+    max-width: 1230px;
+}
+
+nav {
+    height: 77px;
+    background-color:aquamarine;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+nav #logo {
+    width: 150px;
+    height: 77px;
+    background-color: darkorchid;
+}
+
+nav #link {
+    width: 550px;
+    height: 77px;
+}
+
+nav #link ul {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+nav #link ul li {
+    width: 80px;
+    height: 30px;
+    background-color: lightcoral;
+}
+
+nav #login {
+    width: 110px;
+    height: 77px;
+    background-color: darkorchid;
+}
+/* /navbar */
+
+/* header */
+header {
+    max-width: 800px;
+    min-height: 260px;
+    /* background-color:blue; */
+    margin: 0 auto;
+    padding-top: 135px;
+    
+}
+
+header #title {
+    min-height: 55px;
+    max-width: 540px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+header #header-paragraph {
+    min-height: 100px;
+    max-width: 770px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+header #header-button {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+header #header-button #download{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+}
+
+header #header-button #open-in-browser {
+    height: 50px;
+    width: 300px;
+    background-color: darkgray;
+    border: none;
+}
+
+main {
+    margin: 0 auto;
+}
+
+main #section-1, main #section-2, main #section-3{
+    min-height: 680px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+}
+
+main #section-1 .section-img {
+    height: 440px;
+    width: 630px;
+    background-color: red;
+}
+
+main #section-1 .section-text {
+    height: 440px;
+    width: 420px;
+    background-color:#FF69B4;
+}
+
+main #section-2 .section-img {
+    height: 440px;
+    width: 630px;
+    background-color: red;
+}
+
+main #section-2 .section-text {
+    height: 440px;
+    width: 420px;
+    background-color:#FF69B4;
+}
+main #section-3 .section-img {
+    height: 440px;
+    width: 630px;
+    background-color: red;
+}
+
+main #section-3 .section-text {
+    height: 440px;
+    width: 420px;
+    background-color:#FF69B4;
+}
+
+main #last-section {
+    min-height: 1400px;
+    border: 1px solid black;
+}
+
+main #last-section #last-section-text {
+    margin-top: 155px;
+}
+
+main #last-section #last-section-text h2{
+    width: 1000px;
+    min-height: 70px;
+    background-color: yellowgreen;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+main #last-section #last-section-text p{
+    width: 1000px;
+    min-height: 80px;
+    background-color: orange;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+main #last-section #last-section-img {
+    height: 600px;
+    width: 1150px;
+    background-color: red;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+main #last-section #last-section-button {
+    width: 650;
+}
+
+main #last-section #last-section-button #strong{
+    height: 100px;
+    width: 650px;
+    background-color: darkgreen;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+main #last-section #last-section-button #last-link {
+    height: 55px;
+    width: 200px;
+    background-color: darkblue;
+    margin:0 auto;
+}
+
+footer {
+    background-color: darkslategrey;
+    height: 642px;
+}
+
+footer #footer-1 {
+    margin:0 auto;
+    padding-top: 75px;
+    display: flex;
+    flex-direction:row;
+    /* flex-wrap: wrap; */
+    gap: 110px;
+    margin-bottom: 35px;
+    background-color: darkorange;
+}
+
+footer #footer-type-1 {
+    height: 170px;
+    width: 235px;
+    background-color: pink;
+}
+
+footer .footer-type-2 {
+    height: 300px;
+    width: 150px;
+    background-color: palevioletred;
+}
+
+footer .footer-type-2 ul {
+    list-style-type: none;
+}
+
+footer #footer-2 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 35px;
+    background-color: darkorange;
+}
+
+footer hr {
+    font-size: 1px;
+    color: aliceblue;
+    margin: 0 auto;
+}
+
+footer #footer-2 #logo-2 {
+    height: 40px;
+    width: 140px;
+    background-color:bisque;
+}
+
+footer #footer-2 #registration {
+    height: 40px;
+    width: 90px;
+    background-color: antiquewhite;
+}
