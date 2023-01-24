@@ -289,7 +289,7 @@ main #last-section #last-section-button #last-link a {
 
 footer {
     background-color: #23272a;
-    height: 642px;
+    min-height: 600px;
 }
 
 footer #footer-1 {
@@ -297,22 +297,60 @@ footer #footer-1 {
     padding-top: 75px;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     gap: 110px;
     margin-bottom: 35px;
-    background-color: darkorange;
+}
+
+footer #footer-1 .purple-text {
+    color: #7289da;
 }
 
 footer #footer-type-1 {
     height: 170px;
     width: 235px;
-    background-color: pink;
+}
+
+
+footer #footer-type-1 h3 {
+    font-size: 2.5em;
+    padding-bottom: 0.5em;
+}
+
+footer #footer-type-1 #language img {
+    height: 1em;
+    padding-right: 2px;
+}
+
+footer #footer-type-1 #language span {
+    color: white;
+    font-size: 1.4em;
+}
+
+footer #footer-type-1 #social-link {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+/* mancano 3 loghi social */
+footer #footer-type-1 #social-link img {
+    height: 1.5em;
 }
 
 footer .footer-type-2 {
-    height: 300px;
+    min-height: 300px;
     width: 150px;
-    background-color: palevioletred;
+}
+
+footer .footer-type-2 h4 {
+    font-size: 1.4em;
+}
+
+footer .footer-type-2 li {
+    font-size: 1.2em;
+    line-height: 2em;
+    color: white;
 }
 
 footer .footer-type-2 ul {
@@ -326,23 +364,26 @@ footer #footer-2 {
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 35px;
-    background-color: darkorange;
 }
 
 footer hr {
-    font-size: 1px;
-    color: aliceblue;
+    border-color: #7289da;
     margin: 0 auto;
 }
 
 footer #footer-2 #logo-2 {
     height: 40px;
     width: 140px;
-    background-color: bisque;
 }
 
 footer #footer-2 #registration {
     height: 40px;
     width: 90px;
-    background-color: antiquewhite;
+    background-color: #7289da;
+    border-radius: 30px;
+}
+
+footer #footer-2 #registration a{
+    color: white;
+    font-size: 1.4em;
 }
