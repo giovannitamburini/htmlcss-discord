@@ -1,6 +1,6 @@
 /* navbar */
 #background-top {
-    background-image: url('/img/jumbo.png');
+    background-image: url('../img/jumbo.png');
     background-size: cover;
     height: 570px;
 }
@@ -193,9 +193,6 @@ main #section-3 p {
     line-height: 1.4em;
 }
 
-
-
-
 main #section-1 .section-img {
     height: 440px;
     width: 630px;
@@ -253,7 +250,7 @@ main #last-section #last-section-text p {
 main #last-section #last-section-img {
     height: 630px;
     width: 1150px;
-    background-image: url('/img/item4-big.svg');
+    background-image: url('../img/item4-big.svg');
     background-size: cover;
     margin: 0 auto;
     margin-bottom: 100px;
