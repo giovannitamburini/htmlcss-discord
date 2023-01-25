@@ -350,7 +350,8 @@ footer .footer-type-2 h4 {
 
 footer .footer-type-2 li {
     font-size: 1.2em;
-    line-height: 2em;
+    margin-top: 1em;
+    /* line-height: 2em; */
     color: white;
 }
 
