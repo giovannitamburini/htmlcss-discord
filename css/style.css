@@ -175,6 +175,10 @@ main #section-3 {
     gap: 65px;
 }
 
+main #section-2 {
+    flex-wrap: wrap-reverse;
+}
+
 main #section-1 h2,
 main #section-2 h2,
 main #section-3 h2 {
